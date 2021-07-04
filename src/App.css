@@ -1,0 +1,132 @@
+.App{    
+    min-height: 100vh;
+    color: #000;
+}
+
+header{
+    height: 50px;
+    box-shadow: 0 8px 8px rgb(0 0 0 / 5%);
+}
+
+header h1{
+    margin: 0;
+    line-height: 50px;
+    padding: 0 15px;
+    float: left;
+}
+header nav{
+    margin: 0;
+    float: right;
+}
+
+.content{
+    display: table;
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.5em;
+}
+
+.content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content li {
+    display: inline-block;
+    position: relative;
+}
+
+.schedules, .logs {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.schedules{
+    width: 250px;
+    background-color: #F4F4F4;     
+    box-shadow: inset -5px 0 8px -5px rgba(80,80,80,0.9), inset  0 -5px 8px -5px rgba(80,80,80,0.9);
+}
+
+.schedules >div{
+    width: 300px;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+
+.schedules li .schedule{
+    display: block;
+    margin: 5px 10px 20px 20px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 7px 1px rgb(80 80 80 / 90%);
+    width: 235px;
+    min-height: 150px;
+    vertical-align: middle;
+    padding: 2px 5px ;
+}
+
+.schedules li .schedule.selected{
+     border: 1px solid #f15f43  ;
+}
+
+.schedules li .schedule:hover,
+.schedules li .schedule:focus {
+    border: 3px solid #00ace5;
+    outline: 0;
+  }
+
+.schedule label{ 
+  font-weight: bold;
+}
+
+.logs li div{
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px 0 10px 15px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: #fff;   
+    width: 240px;
+    min-height: 130px;
+    vertical-align: top;
+    padding: 2px 5px ;
+}
+
+.more_link{
+    color: #f15f43;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button{
+    color: #fff;
+    font-weight: bold;        
+    background-color: #f15f44;
+    height: 30px;
+    line-height: 20px;
+    border: 1px solid #f15f44;
+    border-radius: 4px;
+    margin: 2px;
+    
+}
+
+button:hover,
+button:focus{
+    color: #d9462b;       
+    background-color: #fff;
+    border: 1px solid #d9462b;
+    outline: 0;    
+}
+
+.filter_select{
+    float: right;
+    margin: 12px;
+}
+
+
+
+
+    
