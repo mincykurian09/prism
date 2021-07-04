@@ -20,26 +20,17 @@ const URLS = {
 
 ## Application details
 
-I have developed the app in React and have used Create React App to bootstrap the build. It is hosted in port 3000. For API calls, I have used 'axios'.
+I have developed the app in React and have used Create React App to bootstrap the build. It is hosted in port 3000. For API calls, I have used 'axios'. All the use cases are covered.
+- As a user I initially get presented with a list of the available schedules.
+- As a user I can view a schedule corresponding log entries by selecting its card.
+- As a user I can switch a schedule to retired/unretired.
 
 ## Componenet/Data display
 
 - Date is converted to readable format (local GB date string) in the schedule cards and log table.
 - Added Load more/Show less link in schedule card to display more cards.
 - Added a filter in the logs table to filter the entries by 'Status'
-- As an improvement The logs of the first schedule will be displayed on first load
+- As an improvement, the logs of the first schedule will be displayed on first load
 - The page is responsive and can be used in mobile devices as well.
 
-## All use cases are covered
-- As a user I initially get presented with a list of the available schedules.
-- As a user I can view a schedule corresponding log entries by selecting its card.
-- As a user I can switch a schedule to retired/unretired.
-
-
-
 ![Screenshot](./src/assets/screenshot.png)
-
-
-
-
-
